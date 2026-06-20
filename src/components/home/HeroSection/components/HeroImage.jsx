@@ -24,7 +24,7 @@ const HeroImage = ({ imageRef, orbitRef }) => {
         className="relative w-72 h-72 md:w-96 md:h-96 overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(168,85,247,0.15)] z-10 transform-style-3d group"
       >
         {/* Scan line */}
-        <div className="absolute top-0 left-0 w-full h-[2px] bg-purple-500 shadow-[0_0_15px_#A855F7] z-30 animate-scan" />
+        {/* <div className="absolute top-0 left-0 w-full h-[2px] bg-purple-500 shadow-[0_0_15px_#A855F7] z-30 animate-scan" /> */}
 
         {/* Grid overlay */}
         <div
